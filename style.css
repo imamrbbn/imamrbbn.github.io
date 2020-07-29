@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Quicksand:wght@400;500&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family:'Quicksand',sans-serif;
+}
+
+header { 
+    background-color: rgba(3, 3, 3, 0.7);
+    top: 0;
+    display: inline;
+}
+
+.headerPage{
+    background-color: #2c2a2f;
+}
+
+.header-image{
+    filter: blur(4px);
+    width: 100%;
+    background-position: center;
+  }
+
+#head-title {
+    position: absolute;
+    font-family: 'Dancing Script', 'Quicksand',sans-serif;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    border: 5px solid #f1f1f1;
+    border-radius: 30px;
+    background-color: rgba(0,0,0, 0.5);
+    width: 50%;
+    padding: 20px;
+    font-size: 100px;
+    font-weight: 900;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    
+}
+nav ul {
+    margin: 15px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+nav li {
+    display: inline-block;
+    font-family: 'Sriracha','Quicksand',sans-serif;
+    color: #d8eaee;
+    padding: 0 50px;
+    text-align: center;
+}
+
+
+main{
+    background-image: url(img/7e2ed43774233d26428175ab75b3.jpg);
+    margin: 0 auto;
+}
+
+section {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+h1 {
+
+    font-family: 'Roboto', sans-serif, 'Times New Roman';
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+    color: rgb(196, 28, 112);
+    text-align: center;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 15px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    bottom: 0;
+}
+
